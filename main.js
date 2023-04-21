@@ -10,7 +10,7 @@ var vowel_counter = 0;
 // 2. Ask the user to input a sentence ending with a point.
 
 var sentence = prompt('write a sentence with a full stop "." ');
-console.log = sentence;
+console.log(sentence);
 
 // 3. Iterate over each character in the sentence:
 // a. Increment the length_counter by 1 for each character.
@@ -20,7 +20,7 @@ sentence = prompt('write a sentence with a full stop "." ');
 for (var i = 0; i < sentence.length; i++) {
   var char = sentence[i];
   length_counter++;
-  console.log = length_counter;
+  console.log(length_counter);
 }
 // b. If the current character is a space, increment the word_counter by 1.
 
@@ -34,7 +34,7 @@ for (var i = 0; i < sentence.length; i++) {
     word_counter++;
   }
 }
-console.log = word_counter;
+console.log(word_counter);
 
 // c. If the current character is a vowel (a, e, i, o, u), increment the vowel_counter by 1. Ignore case sensitivity.
 
@@ -52,4 +52,4 @@ for (var i = 0; i < sentence.length; i++) {
   }
 }
 
-console.log = vowel_counter;
+console.log(vowel_counter);
